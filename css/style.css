@@ -62,13 +62,13 @@ h1 {
     }
 
 h2 {
-    font-size   : 30px;
+    font-size   : 22px;
     line-height : 1.5em;
     font-weight : 400;
     }
 
 h3 {
-    font-size   : 24px;
+    font-size   : 20px;
     line-height : 1.5em;
     font-weight : 300;
     }
@@ -319,7 +319,7 @@ button:focus,
     top                : 0;
     z-index            : 999;
     background         : #ffffff !important;
-    padding            : 5px 0;
+    padding            : 5px 5px;
     box-shadow         : 0 2px 5px rgba(0, 0, 0, .1);
     -webkit-transition : all .5s ease-in-out;
     -moz-transition    : all .5s ease-in-out;
@@ -520,30 +520,31 @@ button:focus,
  * Agenda
  *---------------------------*/
 .section-ajenda .session {
-    padding       : 15px 0;
+    padding       : 2px 0;
     border-left   : 3px solid #eeeeee;
-    margin-bottom : 40px;
+    margin-bottom : 20px;
     }
 
 .section-ajenda .session time {
-    padding       : 15px 55px 10px;
+    padding       : 15px 55px 5px;
     border-bottom : 2px solid #eeeeee;
     display       : inline-block;
 
     background-color: #009bcc;
     color: #eee;
-    padding-top: 14px;
+    padding-top: 4px;
     margin-top: 15px;
         background-image: url('img/block_back.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 800px;
     font-size: 18px;
+    font-weight: 300;
     border-radius: 0 5px 0 0;
     }
 
 .section-ajenda .session h2 {
-    margin : 20px 0 0 20px;
+    margin : 5px 0 0 20px;
     }
 
 .section-ajenda .session h3 {

@@ -94,7 +94,8 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    color              : #009bcc;
+    font-weight        : 300;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -334,10 +335,17 @@ button:focus,
     background: #333;
     }
 
+.sticky-nav .navbar-brand img {
+  width: 50%;
+  -webkit-transition : all .5s ease-in-out;
+  -moz-transition    : all .5s ease-in-out;
+  transition         : all .5s ease-in-out;
+}
+
 @media (max-width: 768px) {
     .sticky-nav{
-        padding-left: 10px;
-        padding-right: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
         }
     }
 
@@ -439,12 +447,14 @@ button:focus,
 .about-event .lead {
     font-size   : 19px;
     line-height : 1.7em;
+    text-align: center;
     }
 
 .about-event address {
     font-size   : 15px;
     color       : #888888;
     line-height : 1.8em;
+    text-align: center;
     }
 
 .about-event address strong {

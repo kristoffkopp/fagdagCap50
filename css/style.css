@@ -354,7 +354,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/img-jumbotron-bg.jpg");
+    background            : url("../img/cap_img-jumbotron-bg.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -421,7 +421,7 @@ button:focus,
  * Section Wrapper
  *---------------------------*/
 .section-wrapper {
-    padding : 100px 0;
+    padding : 70px 0;
     }
 
 /*---------------------------
@@ -455,6 +455,7 @@ button:focus,
     color       : #888888;
     line-height : 1.8em;
     text-align: center;
+    margin-top: 40px;
     }
 
 .about-event address strong {

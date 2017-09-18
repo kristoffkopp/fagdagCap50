@@ -448,6 +448,7 @@ button:focus,
     font-size   : 19px;
     line-height : 1.7em;
     text-align: center;
+    margin-bottom: 50px;
     }
 
 .about-event address {
@@ -455,7 +456,6 @@ button:focus,
     color       : #888888;
     line-height : 1.8em;
     text-align: center;
-    margin-top: 40px;
     }
 
 .about-event address strong {
